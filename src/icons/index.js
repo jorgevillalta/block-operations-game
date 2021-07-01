@@ -1,0 +1,9 @@
+export { ReactComponent as DoneWhite } from './done_white.svg';
+export { ReactComponent as ThumbUpWhite } from './thumb_up_white.svg';
+export { ReactComponent as CloseWhite } from './close_white.svg';
+export { ReactComponent as RefreshBlack } from './refresh_black.svg';
+export { ReactComponent as ArrowForwardWhite } from './arrow_forward_white.svg';
+export { ReactComponent as ArrowBackWhite } from './arrow_back_white.svg';
+export { ReactComponent as ArrowDownWhite } from './arrow_down_white.svg';
+export { ReactComponent as LooksOneBlack } from './looks_one_black.svg';
+export { ReactComponent as LooksTwoBlack } from './looks_two_black.svg';

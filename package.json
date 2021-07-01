@@ -1,0 +1,68 @@
+{
+  "name": "block-operations-game",
+  "version": "1.0.0-rc1",
+  "author": "Jorge Villalta (github.com/jorgevillalta)",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "PORT=8060 react-scripts start",
+    "lint": "eslint src/**/*{.jsx,.js}",
+    "format": "prettier --write src/**/*.{jsx,js}",
+    "test": "react-scripts test",
+    "build:dev": "env-cmd -f .env react-scripts build",
+    "build:github": "env-cmd -f .env.github react-scripts build",
+    "deploy:github": "npm run build:github && npx gh-pages -d build"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^13.1.9",
+    "immer": "^9.0.3",
+    "rdndmb-html5-to-touch": "^7.0.0-alpha.1",
+    "react": "^17.0.2",
+    "react-dnd": "^14.0.2",
+    "react-dnd-html5-backend": "^14.0.0",
+    "react-dnd-multi-backend": "^6.0.2",
+    "react-dnd-touch-backend": "^14.0.0",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "styled-components": "^5.3.0",
+    "web-vitals": "^1.1.2",
+    "wouter": "^2.7.4"
+  },
+  "devDependencies": {
+    "babel-plugin-macros": "^3.1.0",
+    "env-cmd": "^10.1.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.3.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "plugins": [
+      "react-hooks"
+    ],
+    "rules": {
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn"
+    }
+  },
+  "browserslist": {
+    "production": [
+      "since 2017",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "babelMacros": {
+    "styledComponents": {
+      "pure": true
+    }
+  }
+}

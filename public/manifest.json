@@ -1,0 +1,26 @@
+{
+  "short_name": "Block Operations Game",
+  "name": "Learn number representation and basic operations using visual blocks system",
+  "author": "Jorge Villalta",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#e2a0ff",
+  "background_color": "#ffffff"
+}
