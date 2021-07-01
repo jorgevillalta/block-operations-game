@@ -2,13 +2,19 @@
 
 <br />
 
-<div align="center">An application to learn number representation and basic operations using visual blocks system. You can choose between two modes: one to practice with isolated numbers and another one to practice with basic operations (add and substract).</div>
+<div align="center">
+
+An application to learn number representation and basic operations using visual blocks system. You can choose between two modes: one to practice with isolated numbers and another one to practice with basic operations (add and substract).
+
+</div>
 
 <br />
 
-**📣 Follow this [link](https://jorgevillalta.github.io/block-operations-game) to play with a live demo of this project. See a mockup design in [Figma](https://www.figma.com/community/file/991767919115011359) 📣**
+<div align="center">
 
-<br />
+Follow this [link](https://block-operations-game.netlify.app) to play with a live demo of this project. See a mockup design in [Figma](https://www.figma.com/community/file/991767919115011359)
+
+</div>
 
 ### Used libraries 📚
 
